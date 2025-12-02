@@ -7,7 +7,7 @@ import java.io.ObjectOutputStream;
 public class ObjextToFile {
 
 	public static void main(String[] args) {
-		Person person = new Person("John Doe", 22, "Universitas Multimedia Nusantara");
+		Person person = new Person("Melvin Timothy", 22, "Universitas Multimedia Nusantara");
 		
 		try(FileOutputStream fileOut = new FileOutputStream("person.ser");
 				ObjectOutputStream out = new ObjectOutputStream(fileOut)){
